@@ -1,0 +1,94 @@
+
+body{
+    background-color: hsl(233, 47%, 7%);
+    margin: 0;
+}
+@media screen and (max-width: 480px) {
+    .bgimage{
+        width: 80vw;
+        height: 45vh;
+        align-self: center;
+        background-image: url("images/image-header-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: inset 0 0 0 2000px hsla(277, 96%, 52%, 0.3);
+       border-top-left-radius: 12px;
+       border-top-right-radius: 12px;
+    }
+    /*blue part*/
+    .full-card{
+        color: white;
+        width: 80vw;
+        margin: 0 auto;
+        background-color: hsl(244, 38%, 16%);
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        border-radius: 12px;
+        
+    }
+    .text-card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+.text-card{
+    font-family: 'Inter', sans-serif;
+    padding: 50px;
+    color: white;
+}
+h1{
+    color:  hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+.text-card span{
+    color:hsl(277, 64%, 61%);
+}
+.body-text ,.stat-data{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.body-text{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.stat-data{
+    color: hsla(0, 0%, 100%, 0.60);
+}
+@media screen and (min-width: 480px) {
+    .full-card{
+        width: 80vw;
+        height: 70vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: hsl(244, 38%, 16%);
+        margin: 0 auto;
+        margin-top: 15vh ;
+        margin-bottom: 5vh;
+        border-radius: 12px;
+    }
+   .img{
+       width: 60vw;
+       height: 70vh;
+      background-image: url("images/image-header-desktop.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-self: center;
+      box-shadow: inset 0 0 0 2000px hsla(277, 96%, 52%, 0.3);
+      border-bottom-right-radius: 12px;
+      border-top-right-radius: 12px;
+   
+    } 
+    .stat-text{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 0;
+    
+    }
+    
+}
